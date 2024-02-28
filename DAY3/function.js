@@ -14,9 +14,9 @@ let greet1 = function(name) {
 greet1("Alice"); 
 
 // third way
-let greet2 = (name) => {
+let greet = (name) => {
     console.log("Hello, " + name + "!");
 };
 
 // Calling the function
-greet2("Bob"); 
+greet("Bob"); 
