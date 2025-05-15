@@ -30,3 +30,16 @@ console.log("Tulip – unit price:", tuliPrice, ", quantity:", tuliQuantity, ", 
 console.log("Total: ", totalValue);
 
 //
+
+let name1 = "";
+let name2 = "";
+let name3 = "";
+
+//question1
+function reversestring(str){
+    return structuredClone.split("").reverse().join("");
+}
+console.log(reversestring("Uwineza"));
+
+//using split
+
